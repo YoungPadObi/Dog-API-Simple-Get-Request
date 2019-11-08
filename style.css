@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(231, 97, 231);
+  display: flex;
+}
+
+h1 {
+  margin-top: 5%;
+  color: whitesmoke;
+}
+
+h3 {
+  color: white;
+}
+
+#container {
+  flex-direction: row;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: 50%;
+}
+
+.get-dog-btn {
+  background-color: blue;
+}
+
+.hidden {
+  display: none;
+}

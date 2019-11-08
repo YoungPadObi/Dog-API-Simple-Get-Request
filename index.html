@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Thinkful Simple GET Requests API assignment" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dog API GET Request</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section id="container">
+      <h1 class="display-4 mb-4">Dog API: Simple GET Request</h1>
+      <div id="input"></div>
+      <form id="form-input-breed">
+        <div class="form-group">
+          <h3>What breed of dog you want?</h3>
+          <input type="text" id="get-dog-breed" class="form-control" placeholder="Name a breed of dogs" required />
+        </div>
+        <div class="button">
+          <input type="submit" id="get-dog-photo" class="btn btn-primary mr-4 get-dog-btn" value="Get Dog Photo!" />
+        </div>
+        <div class="results-breed hidden">
+        </div>
+      </form>
+    </section>
+    <section id="container">
+        <h3 class="display-4 mb-4">How many dogs, are in the window?</h3>
+        <div id="input"></div>
+        <form id="form">
+            <label>How many pictures would you like?
+              <input type="text" id="num" class="form-control" placeholder="3" required> 
+            </label>
+            <div class="button">
+            <input type="submit" class="submit btn btn-primary get-dog-btn" value="Get Dog Pic(s)!">
+            </div>
+          </form>
+  
+          <div class="images hidden"></div>
+      </div>
+      </form>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="logic.js"></script>
+  </body>
+</html>
